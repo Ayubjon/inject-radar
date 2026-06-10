@@ -1,0 +1,38 @@
+{
+  "name": "inject-radar",
+  "version": "1.0.0",
+  "description": "Zero-dependency, local-first prompt-injection scanner and CI gate for LLM apps. Detects instruction overrides, jailbreaks, data exfiltration and obfuscation (zero-width, homoglyph, base64) with a 0-100 risk score.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "inject-radar": "bin/inject-radar.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "prompt-injection",
+    "llm",
+    "ai-security",
+    "jailbreak",
+    "prompt-security",
+    "llm-security",
+    "guardrails",
+    "scanner",
+    "zero-dependency"
+  ],
+  "author": "Ayubjon",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
