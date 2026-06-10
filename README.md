@@ -2,6 +2,8 @@
 
 > Zero-dependency, local-first **prompt-injection scanner** and **CI gate** for LLM apps.
 
+![How inject-radar works](assets/how-it-works.svg)
+
 `inject-radar` inspects untrusted text *before* it reaches your model and returns
 an explainable **0–100 risk score** with per-finding reasons. It runs entirely
 locally — **no API keys, no network calls, no LLM, no dependencies** — so it is
