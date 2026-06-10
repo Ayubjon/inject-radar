@@ -94,7 +94,7 @@ export const RULES = [
   {
     id: 'leak.repeat-above',
     category: 'system-prompt-leak',
-    severity: 'medium',
+    severity: 'high',
     pattern: /\brepeat\b[^.]{0,20}\b(the )?(words?|text|everything|content)\b[^.]{0,15}\b(above|before|prior)\b/,
     description: 'Asks the model to echo prior hidden context verbatim.',
   },
