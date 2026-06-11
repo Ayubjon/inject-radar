@@ -135,3 +135,15 @@ npm test   # runs the node:test suite (no build step)
 ## License
 
 MIT © 2026 Ayubjon
+
+## Support
+
+If this project is useful to you, you can support its development with a crypto tip — thank you!
+
+**USDT — Ethereum (ERC-20):**
+
+`0xad39bdf2df0b8dd6991150fcea0a156150ed19b8`
+
+[View / verify on Etherscan](https://etherscan.io/address/0xad39bdf2df0b8dd6991150fcea0a156150ed19b8)
+
+> Send only on the **Ethereum (ERC-20)** network.
